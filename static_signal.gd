@@ -24,7 +24,7 @@ static var _static_signal_id: int = 0
 ## something_happened.emit()
 ##
 ## # To connect:
-## something_happened.connect(_on_something_happened)
+## Class.something_happened.connect(_on_something_happened)
 ## [/codeblock]
 static func make() -> Signal:
 	# Generate a unique name to prevent signal name collisions on the class object.
